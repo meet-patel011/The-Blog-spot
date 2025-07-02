@@ -12,8 +12,8 @@ Screenshot:
 
 
 Technologies Used:
-HTML5
-CSS3
+HTML
+CSS
 JavaScript (DOM Manipulation, Event Handling)
 
 How to Run:
@@ -24,6 +24,6 @@ How to Run:
 5. Submit comments below each post.
 
 Future Updates:
-Store posts and comments using localStorage or backend
+Store posts and comments using localStorage or backend.
 Add login/signup functionality
 
