@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Blog Spot</title>
+  <link rel="stylesheet" href="blog.css"></link>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Blog Spot</h1>
+    <nav>
+  <ul class="category-nav">
+    <li><a href="#" data-category="all">All</a></li>
+    <li><a href="#" data-category="movies">Movies</a></li>
+    <li><a href="#" data-category="social media">Social media</a></li>
+    <li><a href="#" data-category="streaming">Streaming</a></li>
+    <li><a href="#" data-category="politics">Politics</a></li>
+  </ul>
+    </nav>
+  <div class="searchbar">
+  <input type=text id="searchinput" placeholder="search..">
+  </div>
+  </header>
+  <section class="btn">
+    <p>Browse trending articles, share your thoughts, and discover amazing topics in movies, politics, and more.</p>
+    <button id="btn1"> Write your own Blog..</button>
+  </section>
+  <section id="blogFormSection" style="display: none;">
+  <h2>Create a New Blog Post</h2>
+  <form id="blogForm">
+    <input type="text" id="blogTitle" placeholder="Blog Title" required>
+    <input type="text" id="blogCategory" placeholder="Category (e.g., movies)" required>
+    <input type="text" id="blogImage" placeholder="Image URL" required>
+    <textarea id="blogContent" rows="5" placeholder="Write your blog content here..." required></textarea>
+    <button type="submit">Publish</button>
+  </form>
+</section>
+
+  <main id="blog-posts">
+    <div class="post-grid"></div>
+
+    <section id="post1" class="blog-post" data-category="movies">
+      <h2>Top 5 Hollywood Movies That Redefined Cinema</h2>
+      <p class="date">Published on: June 27, 2025</p>
+      <img src="https://wallpapers.com/images/featured/hollywood-background-3peqsebggv3rdr6c.jpg">
+      <p>
+        From groundbreaking visuals to unforgettable storytelling, Hollywood has delivered some of the most iconic films in cinema history. These movies didn’t just entertain — they changed the way cinema is experienced, inspiring generations of filmmakers and fans.
+      </p>
+      <p><strong>1. The Godfather (1972)</strong><br>
+        A masterclass in storytelling, *The Godfather* by Francis Ford Coppola is widely considered one of the greatest films ever made. It redefined the crime drama genre and introduced a new level of cinematic depth and realism.
+      </p>
+      <p><strong>2. Star Wars (1977)</strong><br>
+        George Lucas brought a sci-fi revolution to the big screen. With visual effects far ahead of its time and a universe full of unforgettable characters, *Star Wars* created a cultural phenomenon.
+      </p>
+      <p><strong>3. Titanic (1997)</strong><br>
+        James Cameron's epic love story set against a historic tragedy combined emotional storytelling with revolutionary effects, making *Titanic* one of the highest-grossing films in history.
+      </p>
+      <p><strong>4. The Dark Knight (2008)</strong><br>
+        Christopher Nolan elevated superhero films into a serious cinematic genre. Heath Ledger’s Joker performance and the film’s themes of chaos and justice made *The Dark Knight* a modern masterpiece.
+      </p>
+      <p><strong>5. Inception (2010)</strong><br>
+        Blending dreams and reality, Nolan’s *Inception* challenged audiences to think, while delivering jaw-dropping visuals and a complex, layered story.
+      </p>
+      <p>
+        These films are more than entertainment — they are cultural milestones that raised the bar for storytelling, cinematography, and ambition in filmmaking.
+      </p>
+      <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <input type="text" class="comment-name" placeholder="Your Name">
+        <textarea class="comment-message" placeholder="Your Comment"></textarea>
+        <button class="comment-submit">Post Comment</button>
+        <div class="comment-list"></div>
+      </div>
+    </section>
+    <section id="post2" class="blog-post" data-category="movies">
+    <h2>Rise of superhero Cinema</h2>
+    <p class="date">Published on: June 27, 2025</p>
+    <img src="https://wallpapers.com/images/hd/superhero-movies-2000-x-1250-wallpaper-dbqey3eqehz8uuza.jpg" alt="superhero image">
+    <p>
+      Superhero films have taken center stage in Hollywood, transforming from niche genre flicks into global blockbusters. With the success of franchises like the Marvel Cinematic Universe (MCU) and DC’s Batman trilogy, superhero movies have become cultural touchstones.
+    </p>
+    <p>
+      What began with early hits like *Spider-Man* (2002) and *X-Men* (2000) exploded with the arrival of *Iron Man* (2008), which launched the MCU. Since then, audiences have embraced these films for their action, emotional storytelling, and universe-building.
+    </p>
+    <p>
+      Characters like Iron Man, Captain America, Black Panther, and Wonder Woman have become modern myths symbols of hope, justice, and inner conflict. These stories often tackle complex themes like identity, responsibility, and sacrifice, wrapped in epic battles and visual effects.
+    </p>
+    <p>
+      As technology advances, superhero films continue to evolve with deeper stories and diverse representation. They’re no longer just popcorn entertainment they’re defining what cinema means to a new generation.
+    </p>
+    <div class="comment-section">
+      <h3>Leave a Comment</h3>
+      <input type="text" class="comment-name" placeholder="Your Name">
+      <textarea class="comment-message" placeholder="Your Comment"></textarea>
+      <button class="comment-submit">Post Comment</button>
+      <div class="comment-list"></div>
+    </div>
+  </section>
+
+  <section id="post3" class="blog-post" data-category="social media">
+    <h2>How Social Media is Changing Modern Politics</h2>
+    <p class="date">Published on: June 28, 2025</p>
+    <img src="https://adllinsmedia.com.au/wp-content/uploads/2023/09/Adllins-Media-Social-Marketing-Platforms.jpg" alt="Politics and Social Media">
+    <p>
+      Social media platforms like Twitter, Facebook, and Instagram have dramatically changed the landscape of politics. Politicians no longer rely only on traditional news channels they now connect directly with millions of people in real-time.
+    </p>
+    <p>
+      While this allows for more direct communication and transparency, it also introduces new challenges. Misinformation, echo chambers, and viral outrage can heavily influence public opinion — sometimes more than verified facts or policies.
+    </p>
+    <p>
+      Movements like #BlackLivesMatter, #MeToo, and large-scale protests around the world were amplified by social media, showing its power to mobilize people. However, debates around censorship, political advertising, and data privacy continue to raise important questions.
+    </p>
+    <p>
+      Social media has become both a microphone and a battlefield for modern politics. As the digital world grows, understanding its role in democracy is more important than ever.
+    </p>
+   <div class="comment-section">
+      <h3>Leave a Comment</h3>
+      <input type="text" class="comment-name" placeholder="Your Name">
+      <textarea class="comment-message" placeholder="Your Comment"></textarea>
+      <button class="comment-submit">Post Comment</button>
+      <div class="comment-list"></div>
+    </div>  
+  </section>
+
+  <section id="post4" class="blog-post" data-category="streaming">
+    <h2>How Streaming Platforms Have Transformed Entertainment</h2>
+    <p class="date">Published on: June 28, 2025</p>
+    <img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/18327841/acastro_190719_3527_plex_piracy_0002.jpg?quality=90&strip=all&crop=0,0,100,100" alt="Streaming Platforms image">
+    <p>
+      Just a decade ago, watching a movie meant going to the theater or waiting for a TV broadcast. Today, streaming platforms have redefined convenience, giving people access to thousands of titles instantly anytime, anywhere.
+    </p>
+    <p>
+      Platforms like Netflix, Amazon Prime, Disney+, and HBO Max have revolutionized how we consume content. They've introduced binge-watching, released original shows globally, and even won major awards, challenging traditional cinema and cable TV.
+    </p>
+    <p>
+      This shift has also opened the door for more diverse storytelling. Independent creators and international content now reach global audiences, breaking language and cultural barriers.
+    </p>
+    <p>
+      While streaming offers freedom, it also brings challenges like content overload, rising subscription costs, and debates over theater vs. home releases. Still, there’s no denying that the screen in your pocket has become the new stage for the world’s entertainment.
+    </p>
+    <div class="comment-section">
+      <h3>Leave a Comment</h3>
+      <input type="text" class="comment-name" placeholder="Your Name">
+      <textarea class="comment-message" placeholder="Your Comment"></textarea>
+      <button class="comment-submit">Post Comment</button>
+      <div class="comment-list"></div>
+    </div>
+  </section>
+<footer style="text-align: center;
+  color: #888;
+  margin: 200px auto;
+  padding: 150px auto;
+  width: 300px auto;
+  height: 40px;">
+  <p>© 2025 TheBlogSpot. All rights reserved.</p>
+</footer>
+
+  </main>
+  <script src="blog.js"></script>
+</body>
+</html>
